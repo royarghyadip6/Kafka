@@ -1,4 +1,5 @@
 package com.kafka.producer;
+/*
 
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -28,3 +29,4 @@ public class KafkaProducer {
     }
 
 }
+*/

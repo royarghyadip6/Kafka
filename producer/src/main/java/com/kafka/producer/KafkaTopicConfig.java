@@ -12,8 +12,8 @@ public class KafkaTopicConfig {
      * This configuration class is responsible for creating a Kafka topic named "my-topic-A" with 3 partitions and a replication factor of 2.
      * The KafkaAdmin bean is required to manage Kafka topics and other administrative tasks.
      */
-/*    @Bean
+    @Bean
     public NewTopic createTopic() {
-        return new NewTopic("my-topic-A", 3, (short) 2);
-    }*/
+        return new NewTopic("rider-location-topic", 3, (short) 2);
+    }
 }
